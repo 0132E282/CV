@@ -1,1 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
 
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{ragged2e}
+
+
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+\usepackage{helvet} % Load the helvet package
+\renewcommand{\rmdefault}{phv} % Set Helvetica as the default font
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape \textbf{nguyen hoang phuc}} \\ \vspace{2pt}          
+    Back-end PHP Laravel \\ \vspace{2pt} 
+    % phone
+    \small \raisebox{-0.1\height}\faPhone\ 077-7575-100  $|$ ~ 
+    % email
+    \href{mailto:phucnguyen200123@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{ phucnguyen200123@gmail.com}}  $|$ ~
+    % github
+    \href{https://github.com/0132E282}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/0132E282}}  $|$ ~
+     % lcation
+    \small \raisebox{-0.1\height}\faMapMarker\ Q12.TP HCM
+    \vspace{-8pt}
+\end{center}
+\begin{justify}
+%-----------summary---------------
+\section{summary}
+ {I have one year of experience with  PHP, JavaScript, and another year working with ReactJS and Laravel. I'm hardworking, a team player, and eager to learn new technologies. My goal is to use my skills to create user-friendly, engaging websites that attract users and improve performance.}
+
+%-----------EDUCATION-----------
+\section{education}
+  \resumeSubHeadingListStart 
+    \resumeSubheading 
+      {FPT college}{2022 -- 2024}    
+      {My major is web design back-end (PHP Laravel) }{}
+  \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Gia Bao House construction company}{August 2024 -- now}
+      {Intern content SEO}{}
+      \resumeItemListStart
+        \resumeItem{Focus on writing SEO-friendly content to boost search rankings on Google.}
+        \resumeItem{Optimize both on-page and off-page SEO.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{projects}
+    \vspace{-1pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading{\textbf{Fashion Shop} $|$ \emph{Bootstrap, PHP}}{July 2023 - August 2023}
+        \begin{itemize}[left=0pt, label={}]
+            \item  Project 1 (School Practice)  Enhance teamwork, proficient in programming language PHP.
+            \item \textbf{GitHub:} \href{https://github.com/0132E282/SUNFLOWER.git}{https://github.com/0132E282/SUNFLOWER.git}
+            \item \textbf{Position in project:} Back-end 
+            \item \textbf{Achievements: } Achieved a score of 7.0 during the project defense, enhancing fundamental PHP skills.
+            \item \textbf{Responsibility  in project}.
+              \resumeItemListStart
+                      \resumeItem{\textbf{Product Management:} Implement CRUD operations, define product attributes, and manage customizations.}
+                      \resumeItem{\textbf{Invoice Management:}  Update invoice statuses, adjust product quantities, add new products, and apply order filters.}
+                      \resumeItem{\textbf{Cart Page:} Develop CRUD functionality for cart items.}
+                      \resumeItem{\textbf{Payment Integration:}  Administer user roles, update details, and manage account statuses.}
+                      \resumeItem{\textbf{User Management: } Administer user roles, update details, and manage account statuses}
+              \resumeItemListEnd 
+        \end{itemize}
+      \vspace{-1pt} % Adjust this value to control the space below the itemize list
+      \resumeProjectHeading
+          {\textbf{Fashion shop (update 6/2024)} $|$ \emph{Laravel, PHP, JQuery, Bootstrap}}{May 2023 - August 2023}
+          \begin{itemize}[left=0pt, label={}]
+              \item Built an e-commerce website using Laravel, gaining hands-on experience with the framework.
+              \item \textbf{GitHub:} \href{https://github.com/0132E282/e-commerce.git }{https://github.com/0132E282/e-commerce.git}
+              \item  \textbf{Position in project:} Back-end 
+              \item \textbf{Achievements: }Mastered Laravel essentials (Eloquent ORM, Blade, authentication), developed product and invoice management with filtering/soft deletion, integrated Momo/VNPAY for payments, and implemented daily backups.
+              \item \textbf{Responsibility  in project}.
+              \resumeItemListStart
+                      \resumeItem{\textbf{Product Management: } Created product listing with filtering by quantity and date, sorting, and soft delete/restore functionality.}
+                      \resumeItem{\textbf{Invoice Management:} Built features to generate invoices, confirm/edit orders, and manage product additions. Included filtering, sorting, and notification queues.}
+                      \resumeItem{\textbf{Category Management: }Managed product categories with hierarchical structure and soft delete/restore.}
+                      \resumeItem{\textbf{Brand Management:} Managed brand listings with filtering and sorting options.}
+                      \resumeItem{\textbf{Menu Management:} Developed menus and submenus with hierarchical links to categories and pages.}
+                      \resumeItem{\textbf{User Management:} Handled user accounts with CRUD, blocking, filtering by role, and role assignment.}
+                      \resumeItem{\textbf{Payment Integration:} Integrated payment gateways such as Momo and VNPAY for smooth online transactions.} 
+              \resumeItemListEnd 
+        \end{itemize}    
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{technical skills}
+ \begin{itemize}[leftmargin=0, label={}]
+    \small{\item{
+     \textbf{Language}{: MySql, PHP, javascript} \\ \vspace{2pt}\textbf{Developer Tools}{: VS Code, jira, docker, figma} \\ \vspace{2pt}\textbf{Technologies/Frameworks}{:Laravel, GitHub, react, WordPress} \\ \vspace{2pt}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \end{justify}
+\end{document}
