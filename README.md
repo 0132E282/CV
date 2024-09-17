@@ -1,4 +1,5 @@
 # Nguyen Hoang Phuc
+**<div aline="center">Fullstack Developer</div>**
 
 Phone: [077-7575-100](tel:077-7575-100) | Email: [phucnguyen200123@gmail.com](mailto:phucnguyen200123@gmail.com) | GitHub: [github.com/0132E282](https://github.com/0132E282) | Location: Q12, TP HCM
 
@@ -8,9 +9,8 @@ I have one year of experience with PHP, JavaScript, and another year working wit
 
 ## Education
 
-**FPT College**  
+**FPT College (2022 -- 2024)**  
 *Major:* Web Design Back-end (PHP Laravel)  
-*Duration:* 2022 -- 2024
 
 ## Experience
 
