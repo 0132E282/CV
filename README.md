@@ -1,6 +1,5 @@
 # Nguyen Hoang Phuc
 
-**Back-end PHP Laravel**
 Phone: [077-7575-100](tel:077-7575-100) | Email: [phucnguyen200123@gmail.com](mailto:phucnguyen200123@gmail.com) | GitHub: [github.com/0132E282](https://github.com/0132E282) | Location: Q12, TP HCM
 
 ## Summary
